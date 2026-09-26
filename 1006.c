@@ -1,0 +1,19 @@
+//Problema 1006 - Média 2 - beecrowd
+
+#include <stdio.h>
+ 
+int main() {
+ 
+   double a, b, c, media;
+   
+   scanf("%lf\n%lf\n%lf", &a, &b, &c);
+   
+   a = a * 2;
+   b = b * 3;
+   c = c * 5;
+   
+   media = (a + b + c)/10;
+   
+   printf("MEDIA = %.1lf\n", media);
+   
+}
